@@ -1,0 +1,21 @@
+img {
+    width: 320px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#specialImage {
+    width: 400px;
+}
+main, header {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
