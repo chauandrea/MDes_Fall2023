@@ -50,6 +50,7 @@ nav ul li {
     opacity: 0.8;
     cursor: pointer;
     border-radius: 5%;
+    max-width: 10%;
   }
   
   .column img:hover {
