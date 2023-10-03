@@ -19,7 +19,35 @@
             </ul>
         </nav>
     </header>
+    
     <main>
+     <!-- The grid: four columns -->
+     <div class="row">
+        <div class="column">
+            <img src="yakujump.jpg" alt="Yaku jump" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="yakusmile.jpg" alt="Yaku Smiling" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="catbox.jpg" alt="Lian in box" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="catfruit.jpg" alt="Lian with fruit sticker" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <!-- The expanding image container -->
+    <div class="container">
+    <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+    <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+
+    <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
         <img src="ginkgo.png" alt="a ginkgo leaf design">
         <h1>Hello! It's Andrea!</h1>
         <h2>a product and ux designer with a passion for storytelling</h2>
@@ -38,6 +66,8 @@
             Mauris eu vestibulum lectus. Etiam a diam congue, viverra nisl eget, vulputate orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in mi maximus, iaculis nisl et, dapibus arcu. Nam turpis nulla, pulvinar vel dolor eu, mollis ullamcorper tortor. Phasellus pellentesque mollis felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas in tempus est.
         </p>
     </main>
+    <!-- scripts -->
+    <script src="main.js"></script>
 </body>
 
 </html>
