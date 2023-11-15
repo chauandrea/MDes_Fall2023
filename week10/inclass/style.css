@@ -1,0 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body, main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
