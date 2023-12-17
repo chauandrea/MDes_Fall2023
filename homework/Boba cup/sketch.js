@@ -10,7 +10,7 @@ var finished = false;
 var ParticleSystems = [];
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(800, 800);
 }
 
 function updateParticleSystems() {
